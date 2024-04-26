@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>World News</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9abfd6;">
+            <div class="container-fluid">
+                
+              <a class="navbar-brand" href="index.html"><i class="bi bi-newspaper"></i><strong>  The News Room</strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input  class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary " type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Categories -->
+          <div class="nav-scroller py-1 mb-2" style="background-color: #c7dbe7;">
+            <nav class="nav d-flex justify-content-between">
+              <!-- <a class="p-2 link-secondary text-decoration-none" style="border-radius: 5px; border: 2px solid rgb(162, 190, 199);" href="#"><b>World</b></a> -->
+              <a class="p-2 link-secondary text-decoration-none" href="world.html"><button type="button" class="btn btn-outline-primary">World</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="india.html"><button type="button" class="text-primary">India</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="tech.html"><button type="button" class="btn btn-outline-primary">Technology</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="design.html"><button type="button" class="btn btn-outline-primary">Design</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="culture.html"><button type="button" class="btn btn-outline-primary">Culture</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="business.html"><button type="button" class="btn btn-outline-primary">Business</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="bollywood.html"><button type="button" class="btn btn-outline-primary">Bollywood</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="hollywood.html"><button type="button" class="btn btn-outline-primary">Hollywood</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="politics.html"><button type="button" class="btn btn-outline-primary">Politics</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="sports.html"><button type="button" class="btn btn-outline-primary">Sports</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="health.html"><button type="button" class="btn btn-outline-primary">Health</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="style.html"><button type="button" class="btn btn-outline-primary">Style</button></a>
+              <a class="p-2 link-secondary text-decoration-none" href="travel.html"><button type="button" class="btn btn-outline-primary">Travel</button></a>
+  </nav>
+          </div>
+          <!-- Div for displaying the news -->
+<!-- Content -->
+<div id = "indiaSection" class="row row-cols-1 row-cols-md-3 g-3 m-3 mt-2">
+</div>
+
+          
+          
+    <script src="backend/india.js"></script>
+     
+    </body>
+</html>
+<!-- https://source.unsplash.com/700x500/?News,Corona -->
